@@ -26,7 +26,7 @@ Lateral works with the custom `navigation-sidebar` or with a custom `sidebar.txt
 
 Lateral is responsive: when the browser window is minimized, classical navigation is displayed and fixed sidebar is not.
 
-If you install another snippet like blog or wiki, you probably need to adapt them like this:
+If you install another snippet like blog, wiki, feed, search or sitemap, you probably need to edit their template and adapt them like this:
 
     <div class="page">
       <div class="content sidebar">
