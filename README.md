@@ -2,6 +2,8 @@
 
 Yellow theme with fixed sidebar, inspired by Indexhibit. [See example](http://eatock.com).
 
+![screenshot](https://github.com/nibreh/yellow-theme-lateral/blob/master/lateral.png?raw=true)
+
 ## How do I install this?
 
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
