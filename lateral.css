@@ -64,9 +64,9 @@ a, img { border:none; text-decoration:none; }
 .content pre { padding:1em; overflow:auto; line-height:1.45; background-color:#f7f7f7; border-radius:3px; }
 .content .threepages { margin:0; padding:0; list-style:none; width:100%; }
 .content .threepages li { padding-bottom:1em; text-align:center; vertical-align:top; display:inline-block; width:32%; }
-.footer { margin-top:2em; clear:both; }
-.footer a { color:#07d; }
-.footer a:hover { color:#07d; text-decoration:underline; }
+.footer { margin-top:2em; clear:both; color:#999;}
+.footer a { color:#999; }
+.footer a:hover { color:#717171; text-decoration:underline; }
 .footer-left { float:left; }
 .footer-right { float:right; }
 .footer-right a {
