@@ -158,7 +158,7 @@ a, img { border:none; text-decoration:none; }
 @media screen and (max-width:52em) { 
 	body { margin:1em; font-size:0.9em; }
 	.sitename h1, h1, h2 { font-size:1.2em; }
-	.sitename h1, .header, .navigation, .footer, .page { margin:0; padding:0; }
+	.sitename h1, .header, .footer, .page { margin:0; padding:0; }
 	.sitename, .navigation, .navigation-tree { float:none; }
 	.navigation-search { padding-top:0.5em; }
 	.container {padding:1em 0;}
