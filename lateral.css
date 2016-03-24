@@ -32,12 +32,11 @@ a, img { border:none; text-decoration:none; }
 .with-sidebar .sitename {float:none;}
 .with-sidebar .main { margin-left:12em; padding: 3em 0; }
 .with-sidebar .sidebar { 
-	float:left; 
+	position: fixed; 
 	width:12em; 
 	font-size:0.9em; 
 	text-align:right;
 	height: 100%; 
-	position: fixed; 
 	overflow: auto;
 	z-index: 1; 
 	border-right: 1px solid #ddd;
