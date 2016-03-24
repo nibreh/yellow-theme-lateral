@@ -24,23 +24,28 @@ To uninstall delete the theme files and set default settings.
 
 Lateral works with the custom `navigation-sidebar` or with a custom `sidebar.txt`. Otherwise, the classical navigation is displayed. [Learn more](http://developers.datenstrom.se/help/yellow-templates).
 
+A scroll bar appears when the fixed sidebar is higher than the web browser window. Otherwise, you can edit the position of `.with-sidebar .sidebar` in `lateral.css`. Change `position:fixed;` to `position:absolute;`
+
 Lateral is responsive: when the browser window is minimized, classical navigation is displayed and fixed sidebar is not.
 
-If you install another snippet like blog, wiki, feed, search or sitemap, you probably need to edit their template and adapt them like this:
+If you install a plugin like blog, wiki, feed, search or sitemap, **you must** adapt their snippets and templates. The HTML structure of Lateral looks like:
 
     <div class="page">
       <div class="content sidebar">
-        <div class="container"></div>
+        <div class="container">
+            <div class="sitename"></div>
+            <div class="navigation-sidebar"></div>
+        </div>
       </div>
       <div class="content main">
-        <div class="container"></div>
-        <div class="footer"></div>
+        <div class="container">
+            <div class="entry blog or wiki"></div>
+            <div class="footer"></div>
+        </div>
       </div>
     </div>
 
-## [Issue #102](https://github.com/datenstrom/yellow/issues/102#issuecomment-137946128) - If you want a central sidebar
-
-If you want a central sidebar, adjust the header snippet. For example replace:
+[Issue #102](https://github.com/datenstrom/yellow/issues/102#issuecomment-137946128): If you want a central sidebar, adjust the header snippet. For example replace:
 
     <?php if($page = $yellow->pages->find($yellow->lookup->getDirectoryLocation($yellow->page->location).$yellow->page->get("sidebar"))) $yellow->page->setPage("sidebar", $page) ?>
 
