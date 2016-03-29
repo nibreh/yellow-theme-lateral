@@ -8,15 +8,7 @@ Yellow theme with fixed sidebar, inspired by Indexhibit. [See example](http://ea
 
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
 2. Download [lateral.css](https://github.com/nibreh/yellow-theme-lateral/blob/master/lateral.css?raw=true), copy it into your `system/themes` folder.
-3. Download [content-main-lateral.php](https://github.com/nibreh/yellow-theme-lateral/blob/master/content-main-lateral.php?raw=true), [content-sidebar-lateral.php](https://github.com/nibreh/yellow-theme-lateral/blob/master/content-sidebar-lateral.php?raw=true) and [footer-lateral.php](https://github.com/nibreh/yellow-theme-lateral/blob/master/footer-lateral.php?raw=true), copy them into your `system/themes/snippets` folder.
-4. Open `system/themes/template/default.html` and change template or create a new one:  
-
-    `<?php $yellow->snippet("header") ?>`  
-    `<?php $yellow->snippet("content-sidebar-lateral") ?>`  
-    `<?php $yellow->snippet("content-main-lateral") ?>`  
-    `<?php $yellow->snippet("footer-lateral") ?>`
-
-5. To enable the theme open file `system/config/config.ini` and change `Theme: lateral`.
+3. To enable the theme open file `system/config/config.ini` and change `Theme: lateral`.
 
 To uninstall delete the theme files and set default settings.
 
