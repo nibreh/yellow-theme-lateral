@@ -1,37 +1,34 @@
 /* Theme: Lateral theme */
-/* Version: 0.6.5 */
-/* Designer: Juh Nibreh & Mark Mayberg */
-/* If you install a plugin like blog, wiki, feed, search or sitemap, you must adapt their snippets and templates. Look at the README.md*/
+/* Version: 0.2 */
+/* Designer: Juh Nibreh & Mark Mayberg*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 html {min-height:101%;}
 html, body, div, form, pre, span, tr, th, td { margin:0; padding:0; border:0; vertical-align:baseline; }
 body {
+
 	background-color:#fff; color:#717171;
-	font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:'Open Sans',sans-serif;
 	font-size:1.0em;
-	font-weight:normal;
+	font-weight:300;
 	line-height:1.5;
 }
-h1, h2, h3, h4, h5, h6 { color:#06a; font-weight:normal; }
+h1, h2, h3, h4, h5, h6 { color:#07d; font-weight:normal; }
 h1 { font-size:2.0em; }
 hr { height:1px; background:#ddd; border:0; }
 strong { font-weight:bold; }
 code { font-size:1.1em; }
-a { color:#06a; }
-a:hover { color:#d21706; text-decoration:underline; }
+a { color:#07d; }
+a:hover { color:#07d; text-decoration:underline; }
 a, img { border:none; text-decoration:none; }
 .sitename { display:block; float:left; }
 .sitename h1 { margin:0; }
 .sitename h1 a { color:#111; text-decoration:none; }
 
-/*Lateral Fixed Sidebar*/
-.header {margin: 1em 1em 0; border-bottom:1px solid #ddd;}
-.container {padding:1em;}
+/*Lateral*/
+.with-sidebar .sidebar h2,h3 {margin-top:1em;}
+.with-sidebar .sidebar p {margin:1em 0;}
 .with-sidebar .header {display:none;}
-.with-sidebar .sidebar ul {padding:0;list-style:none;}
-.with-sidebar .sitename {float:none;}
-.with-sidebar .main { margin-left:12em; padding: 3em 0; }
 .with-sidebar .sidebar { 
 	position: fixed; 
 	width:12em; 
@@ -42,7 +39,15 @@ a, img { border:none; text-decoration:none; }
 	z-index: 1; 
 	border-right: 1px solid #ddd;
 	line-height: 1.3;
+	padding:0 1em;
  }
+
+.with-sidebar .main { margin-left:14em; padding-top:2em;}
+.with-sidebar .footer { margin-left:14em; }
+.with-sidebar .sidebar ul {margin:1em 0;list-style:none; padding:0;}
+.navigation-sidebar {padding:1em 0;}
+.navigation-sidebar ul { margin:0; }
+/**************/
 
 .content h1:first-child, .content>*:first-child { margin-top:0; }
 .content h1 a:hover { text-decoration:none; }
@@ -64,9 +69,9 @@ a, img { border:none; text-decoration:none; }
 .content pre { padding:1em; overflow:auto; line-height:1.45; background-color:#f7f7f7; border-radius:3px; }
 .content .threepages { margin:0; padding:0; list-style:none; width:100%; }
 .content .threepages li { padding-bottom:1em; text-align:center; vertical-align:top; display:inline-block; width:32%; }
-.footer { margin-top:2em; clear:both; color:#999;}
-.footer a { color:#999; }
-.footer a:hover { color:#717171; text-decoration:underline; }
+.footer { margin-top:2em; clear:both; }
+.footer a { color:#07d; }
+.footer a:hover { color:#07d; text-decoration:underline; }
 .footer-left { float:left; }
 .footer-right { float:right; }
 .footer-right a {
@@ -94,8 +99,6 @@ a, img { border:none; text-decoration:none; }
 .navigation a { padding:0 0.3em; }
 .navigation ul { margin:0 -0.3em; padding:0; list-style:none; }
 .navigation li { display:inline; }
-
-/*.navigation-sidebar ul { margin:0; }*/
 
 .navigation-search { padding-bottom:1em; }
 .navigation-search .search-form { position:relative; }
@@ -149,24 +152,34 @@ a, img { border:none; text-decoration:none; }
 .btn:active { box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.1); }
 
 /* Responsive and print */
-
-.page { margin:0 auto; max-width:1000px; }
+.page { margin:1em auto; max-width:1000px;  padding: 1em;}
+.page.with-sidebar {padding:0 1em 1em 0;margin:0;}
 
 @media screen and (min-width:62em) { 
 	body { width:60em; margin:0 auto; }
-	.page{ margin:0; max-width:none; }
+	.page{ margin:1em; max-width:none; padding: 0; }
+	.page.with-sidebar {padding:0 1em 2em 1em;margin:0;}
 }
-@media screen and (max-width:52em) { 
-	body { margin:1em; font-size:0.9em; }
+@media screen and (max-width:40em) { 
+	body { margin:0.5em; font-size:0.9em; }
 	.sitename h1, h1, h2 { font-size:1.2em; }
-	.sitename h1, .header, .footer, .page { margin:0; padding:0; }
+	.sitename h1, .header, .navigation, .footer, .page { margin:0; padding:0; }
 	.sitename, .navigation, .navigation-tree { float:none; }
 	.navigation-search { padding-top:0.5em; }
-	.container {padding:1em 0;}
-	.with-sidebar .header {display:block;}
-	.with-sidebar .main { margin-left:0em; padding:0;}
-	.with-sidebar .sidebar { display:none; }
 	.footer-right { display:none; }
+	.with-sidebar .main { margin-left:0em; }
+	.with-sidebar .footer { margin-left:0; }
+	.page.with-sidebar {padding:0.5em;}
+	.with-sidebar .sidebar { 
+		position: relative; 
+		width:auto; 
+		text-align:left; 
+		line-height: 1.3;
+		padding:0;
+		border-right: 0px;
+		border-bottom:1px solid #ddd;
+	}
+
 }
 @media print {
 	body, h1, h2, h3, h4, h5, h6 { background-color:white; color:black; }
