@@ -1,6 +1,6 @@
 # Lateral theme 0.2
 
-Yellow theme with fixed sidebar, inspired by Indexhibit. [See example](http://eatock.com).
+Yellow theme with fixed sidebar
 
 ![screenshot](https://github.com/nibreh/yellow-theme-lateral/blob/master/lateral-screenshot.png?raw=true)
 
