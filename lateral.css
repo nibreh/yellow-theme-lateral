@@ -26,7 +26,7 @@ a, img { border:none; text-decoration:none; }
 .sitename h1 a { color:#111; text-decoration:none; }
 
 /*Lateral*/
-.with-sidebar .sidebar h2,h3 {margin-top:1em;}
+.with-sidebar .sidebar h1,h2,h3 {margin-top:1em;}
 .with-sidebar .sidebar p {margin:1em 0;}
 .with-sidebar .header {display:none;}
 .with-sidebar .sidebar { 
@@ -49,7 +49,7 @@ a, img { border:none; text-decoration:none; }
 .navigation-sidebar ul { margin:0; }
 /**************/
 
-.content h1:first-child, .content>*:first-child { margin-top:0; }
+/*.content h1:first-child, .content>*:first-child { margin-top:0; }*/
 .content h1 a:hover { text-decoration:none; }
 .content img { max-width:100%; height:auto; }
 .content form { margin:1em 0; }
