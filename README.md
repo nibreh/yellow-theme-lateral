@@ -1,4 +1,4 @@
-# Lateral theme 0.2
+# Lateral theme 0.3.0
 
 Yellow theme with fixed sidebar
 
