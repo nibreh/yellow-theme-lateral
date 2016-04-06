@@ -162,7 +162,7 @@ a, img { border:none; text-decoration:none; }
 /* Responsive and print */
 .page { margin:0 auto; max-width:960px; }
 
-/*This will display the max height*/
+/*Solving the Equal Height Column Conundrum*/
 .page:before {
 	content: '';
 	position: fixed;
