@@ -1,6 +1,6 @@
 # Lateral theme 0.3.0
 
-Yellow theme with fixed sidebar
+Yellow theme with fixed sidebar & equal height column
 
 ![screenshot](https://github.com/nibreh/yellow-theme-lateral/blob/master/screenshot-v0.3.0.png?raw=true)
 
