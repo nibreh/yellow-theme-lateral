@@ -2,7 +2,7 @@
 
 Yellow theme with fixed sidebar
 
-![screenshot](https://github.com/nibreh/yellow-theme-lateral/blob/master/lateral-screenshot.png?raw=true)
+![screenshot](https://github.com/nibreh/yellow-theme-lateral/blob/master/screenshot-v0.3.0.png?raw=true)
 
 ## How do I install this?
 
