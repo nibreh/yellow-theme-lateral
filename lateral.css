@@ -74,7 +74,7 @@ a, img { border:none; text-decoration:none; }
 .content pre { padding:1em; overflow:auto; line-height:1.45; background-color:#f7f7f7; border-radius:3px; }
 .content .threepages { margin:0; padding:0; list-style:none; width:100%; }
 .content .threepages li { padding-bottom:1em; text-align:center; vertical-align:top; display:inline-block; width:32%; }
-.footer { margin-top:2em; clear:both; }
+.footer { margin: 2em 0; clear:both; }
 .footer a { color:#07d; }
 .footer a:hover { color:#07d; text-decoration:underline; }
 .footer-left { float:left; }
