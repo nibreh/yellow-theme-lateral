@@ -28,7 +28,7 @@ a, img { border:none; text-decoration:none; }
 /*Lateral*/
 .with-sidebar .sidebar h1,h2,h3 { margin-top:1em; }
 .with-sidebar .sidebar p { margin:1em 0; }
-.with-sidebar .header { display:none; }
+.with-sidebar .header { margin-left: 170px; margin-top: 1em; border-bottom: 1px solid #eee;}
 .with-sidebar .sidebar { 
 	position: fixed; 
 	width:140px; 
@@ -187,6 +187,7 @@ a, img { border:none; text-decoration:none; }
 	.navigation-search { padding-top:0.5em; }
 	.footer-right { display:none; }
 	.with-sidebar .main { margin-left:0; }
+	.with-sidebar .header { margin-left:0; }
 	.with-sidebar .footer { margin-left:0; }
 	.page.with-sidebar {padding:0.5em;}
 	.with-sidebar .sidebar { 
