@@ -196,7 +196,7 @@ a, img { border:none; text-decoration:none; }
 		text-align:left; 
 		line-height: 1.3;
 		border-right: 0px;
-		border-bottom:1px solid #ddd;
+		border-bottom:1px solid #eee;
 	}
 	.page:before {display:none;}
 
