@@ -1,8 +1,6 @@
 # Lateral theme 0.3.0
 
-Yellow theme with fixed sidebar & equal height column
-
-![screenshot](https://github.com/nibreh/yellow-theme-lateral/blob/master/screenshot-v0.3.0.png?raw=true)
+Yellow theme with fixed sidebar
 
 ## How do I install this?
 
@@ -14,7 +12,7 @@ To uninstall delete the theme files and set default settings.
 
 ## How to use lateral theme?
 
-Lateral works with the custom `navigation-sidebar` or with a custom `sidebar.txt`. Otherwise, the classical navigation is displayed. [Learn more](http://developers.datenstrom.se/help/yellow-templates).
+Lateral works with the custom `navigation-sidebar` or with a custom `sidebar.txt`. [Learn more](http://developers.datenstrom.se/help/yellow-templates).
 
 ## How the fixed sidebar works?
 
