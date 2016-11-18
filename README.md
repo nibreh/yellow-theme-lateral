@@ -21,7 +21,7 @@ A scroll bar appears when the fixed sidebar is higher than the web browser windo
 
 ## Is it responsive?
 
-Sidebar is displayed at the top on mobile device.
+Sidebar is displayed at the top on mobile device. Otherwise, you can install the [burger menu](https://github.com/richi/yellow-plugin-burger-menu) by Richi.
 
 ## How to use a central sidebar?
 
