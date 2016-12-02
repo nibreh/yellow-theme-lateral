@@ -1,5 +1,5 @@
 /* Theme: Lateral theme */
-/* Version: 0.4.0 */
+/* Version: 0.5.0 */
 /* Designer: Juh Nibreh*/
 
 html {min-height:101%; }
@@ -8,7 +8,7 @@ body {
 	margin:1em;
 	background-color:#fff; color:#515151;
 	font-family:"Droid Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:1.1em;
+	font-size:18px;
 	font-weight:normal;
 	line-height:1.5;
 }
@@ -44,7 +44,7 @@ a:hover { color:#005580; text-decoration:underline; }
 .content .center { display:block; margin:0 auto; }
 .content .right { float:right; margin:0 0 0 1em; }
 .content .rounded { border-radius:4px; }
-.content .main {margin-top: 1em;}
+.content .main {margin-top: 1em; margin-bottom: 2em;}
 
 /* Header */
 
@@ -85,7 +85,7 @@ a:hover { color:#005580; text-decoration:underline; }
 
 /* Footer */
 
-.footer { margin-top:2em; }
+.footer { }
 .footer .siteinfo a { color:#0088cc; }
 .footer .siteinfo a:hover { color:#005580; text-decoration:underline; }
 .footer .siteinfo a.socialmedia {
@@ -107,10 +107,17 @@ a:hover { color:#005580; text-decoration:underline; }
 
 /* Sidebar */
 
-.with-sidebar .header {margin-left:12em; }
-.with-sidebar .footer {margin-left:12em;}
-.with-sidebar .main { margin-left:12em; margin-top: 1em;}
-.with-sidebar .sidebar { float:left; width:10em; padding:1em; overflow:auto; font-size:0.9em; position:fixed; top:0; bottom:0; text-align:right; border-right: 1px solid #E8E8E8;}
+.with-sidebar .sidebar { 
+	width:10em; 
+	padding:1em; 
+	overflow:auto; 
+	font-size:0.9em; 
+	position:fixed; 
+	top:0; bottom:0;
+	text-align:right; 
+	border-right: 1px solid #eee; 
+	line-height:1.5;
+}
 .with-sidebar .sidebar ul {list-style:none; padding:0;}
 .with-sidebar .sidebar .search-form input { width:100%; box-sizing:border-box; }
 .with-sidebar .content:after { content:""; display:table; clear:both; }
@@ -155,12 +162,11 @@ a:hover { color:#005580; text-decoration:underline; }
 
 /* Responsive and print */
 
-.page { margin:0 auto; max-width:1000px; }
+.yellow-bar {z-index:2; max-width: 35em; margin: auto;}
+.page {max-width:60em; margin: auto;}
+.header, .main, .footer {max-width: 35em;  margin: auto;}
+.with-sidebar .header, .with-sidebar .main, .with-sidebar .footer {margin-left: 12.5em; max-width: 35em; }
 
-@media screen and (min-width:62em) {
-	body { width:55em; margin:1em auto; }
-	.page{ margin:0; max-width:none; }
-}
 @media screen and (max-width:45em) {
 	body { margin:0.5em; font-size:1em; }
 	.header .sitename h1, .content h1, .content h2 { font-size:1.3em; }
@@ -170,8 +176,13 @@ a:hover { color:#005580; text-decoration:underline; }
 	.navigation-search { padding-bottom:1em; }
 	.footer .siteinfo-right { display:none; }
 	.footer .siteinfo a.socialmedia { width:24px; height:24px; padding:1px 0; }
-	.with-sidebar .main, .with-sidebar .header, .with-sidebar .footer { margin-left:0; }
-	.with-sidebar .sidebar { position: relative; width:auto; text-align:left; float:none; overflow:hidden; border-right:0; border-bottom:1px solid #E8E8E8; padding:0;}
+	.yellow-bar {max-width: 100%; }
+	.header, .main, .footer {max-width:100%;}
+	.with-sidebar .main, .with-sidebar .header, .with-sidebar .footer { margin-left:0; max-width:100%;}
+
+	/* "display:none" if you use  Burger Menu*/
+	.with-sidebar .sidebar { position: relative; width:auto; text-align:left; overflow:hidden; border-right:0; border-bottom:1px solid #E8E8E8; padding:0;}
+
 }
 @media print {
 	.page { border:none !important; }
