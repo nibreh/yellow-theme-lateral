@@ -167,8 +167,8 @@ a:hover { color:#005580; text-decoration:underline; }
 .header, .main, .footer {max-width: 35em;  margin: auto;}
 .with-sidebar .header, .with-sidebar .main, .with-sidebar .footer {margin-left: 12.5em; max-width: 35em; }
 
-@media screen and (max-width:45em) {
-	body { margin:0.5em; font-size:1em; }
+@media screen and (max-width:55em) {
+	body { margin:0.5em; font-size:0.9em; }
 	.header .sitename h1, .content h1, .content h2 { font-size:1.3em; }
 	.header .sitename h1, .header .sitename h2, .footer, .page { margin:0; padding:0; }
 	.header .sitename, .navigation, .navigation-tree { float:none; }
