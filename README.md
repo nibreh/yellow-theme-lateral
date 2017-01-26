@@ -7,7 +7,7 @@ Yellow theme with fixed sidebar
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
 2. Download [theme](https://github.com/nibreh/yellow-theme-lateral/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `master.zip` into your `system/themes` folder.
-4. Open `system/config/config.ini` and change `Theme: berlin`.
+4. Open `system/config/config.ini` and change `Theme: lateral`.
 
 To uninstall delete the theme files and set default settings.
 
