@@ -2,6 +2,8 @@
 
 Yellow theme with fixed sidebar
 
+![lateral-capture.png](https://raw.githubusercontent.com/nibreh/yellow-theme-lateral/master/lateral-capture.png)
+
 ## How do I install this?
 
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
