@@ -119,6 +119,7 @@ border-right: 1px solid #e8e8e8;
 }
 .with-sidebar .sidebar .search-form input { width:100%; box-sizing:border-box; }
 .with-sidebar .content:after { content:""; display:table; clear:both; }
+.with-sidebar .sidebar ul {list-style: none;padding: 0;}
 
 /* Forms and buttons */
 
