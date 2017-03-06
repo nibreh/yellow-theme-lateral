@@ -1,4 +1,4 @@
-# Lateral theme 0.4.0
+# Lateral theme 0.6.0
 
 Yellow theme with fixed sidebar
 
@@ -17,13 +17,21 @@ Lateral works with the custom `navigation-sidebar` or with a custom `sidebar.txt
 
 ## How the fixed sidebar works?
 
-A scroll bar appears when the fixed sidebar is higher than the web browser window. Otherwise, you can edit the position of `.with-sidebar .sidebar` in `lateral.css`. Change `position:fixed;` to `position:absolute;`
+The body/page wrapper is centered, and the sidebar is fixed with `margin-left:-13em;`.
+
+A scroll bar appears when the fixed sidebar is higher than the web browser window. 
+
+You can disable the fixed position in `lateral.css`: found the class`.with-sidebar .sidebar` and change `position:fixed;` to `position:absolute;`.
 
 ## Is it responsive?
 
-Sidebar is displayed at the top on mobile device. Otherwise, you can install the [burger menu](https://github.com/richi/yellow-plugin-burger-menu) by Richi.
+Sidebar is not displayed on small screen (take a look at `@media screen and (max-width:32em)`). 
+
+I suggest to install the [burger menu](https://github.com/richi/yellow-plugin-burger-menu) by Richi.
 
 ## How to use a central sidebar?
+
+*Not sure if this trick working with latest Yellow 0.6.9*
 
 [Issue #102](https://github.com/datenstrom/yellow/issues/102#issuecomment-137946128) - If you want a central sidebar, adjust the header snippet. For example replace:
 
