@@ -160,6 +160,7 @@ border-right: 1px solid #e8e8e8;
 /* Responsive and print */
 
 .page { margin:0 auto; max-width:1000px; }
+.yellow-bar {margin: auto; z-index:2; background:yellow;}
 
 @media screen and (min-width:62em) {
 	body { width:60em; margin:1em auto; }
