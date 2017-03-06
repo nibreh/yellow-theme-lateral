@@ -15,7 +15,7 @@ To uninstall delete the theme files and set default settings.
 
 ## How to use lateral theme?
 
-Lateral works with the custom `navigation-sidebar` or with a custom `sidebar.txt`. [Learn more](http://developers.datenstrom.se/help/yellow-templates).
+Lateral works with the custom `navigation-sidebar` or with a custom `sidebar.txt`. [Learn more](https://developers.datenstrom.se/help/customising-templates).
 
 ## How the fixed sidebar works?
 
