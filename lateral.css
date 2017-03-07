@@ -165,7 +165,7 @@ border-right: 1px solid #e8e8e8;
 
 @media screen and (min-width:62em) {
 	body { width:60em; margin:1em auto; }
-	.page{ margin:auto; max-width:45em; }
+	.page{ margin:auto; max-width:40em; }
 }
 @media screen and (max-width:32em) {
 	body { margin:0.5em; font-size:0.9em; }
